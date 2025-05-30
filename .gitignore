@@ -1,7 +1,46 @@
+<<<<<<< HEAD
+# Node modules
+node_modules/
+
+=======
+>>>>>>> 7db62a750ffd49d26f60ce6ed037b98e2e79012d
 # Logs
 logs
 *.log
 npm-debug.log*
+<<<<<<< HEAD
+
+# Entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Directorios de caché
+.cache
+.parcel-cache
+
+# Build
+dist/
+build/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de IDE
+.vscode/
+.idea/
+
+# Otros archivos temporales
+*.tgz
+*.zip
+
+# Archivos de seguridad
+*.pem
+*.key
+=======
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
@@ -134,3 +173,4 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+>>>>>>> 7db62a750ffd49d26f60ce6ed037b98e2e79012d
