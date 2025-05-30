@@ -1,0 +1,28 @@
+{
+  "name": "app-tsm-back",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "ts-node-dev src/main.ts",
+    "start": "node build/main.js",
+    "tsc": "tsc"
+  },
+  "keywords": [],
+  "author": "Moisés Sira <msira2709.dev@gmail.com>",
+  "contributors": [],
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.16.0",
+    "sequelize": "^6.37.6"
+  }
+}
